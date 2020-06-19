@@ -1,0 +1,71 @@
+#container{
+    background-color: #88A0A8;
+    display: block;
+    border: solid;
+    margin: 0 auto;
+    margin-top: 10vmin;
+    width: 70vmin;
+    height: 80vmin;
+}
+
+#display{
+    background-color: white;
+    display: block;
+    border:solid;
+    height: 12vmin;
+    margin-top: 3vmin;
+    margin-right: 3vmin;
+    margin-left: 3vmin;
+}
+
+#innerDisplay{
+    margin-left: 2vmin;
+    margin-top: 1vmin;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8vmin;
+    overflow: hidden;
+}
+
+#numbers{
+    display: grid;
+    margin-left: 3vmin;
+    margin-top: 3vmin;
+    width: 45vmin;
+    height: 58vmin;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: repeat(3, calc(100% /3));
+    border: solid;
+    float: left;
+}
+
+.num{
+    font-size: 5vmin;
+    border: solid;
+}
+
+#operators{
+    float:right;
+    display: grid;
+    height: 58vmin;
+    width: 16vmin;
+    margin-top:3vmin;
+    margin-right: 3vmin;
+    row-gap: 1vmin;
+}
+
+.op{
+    font-size: 4vmin;
+    border: solid;
+}
+
+button{
+    background-color: #b4ceb3;
+}
+
+button:active{
+    filter: brightness(85%);
+}
+
+body{
+    background-color: #DBD3C9;
+}
